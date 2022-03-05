@@ -1,0 +1,119 @@
+/* 
+project name : egygomla update
+authar name : amr nasser 
+*/
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Cairo', sans-serif;
+    background-color: #F9F9F9;
+}
+body a:hover{
+  text-decoration: none;
+}
+.l-h{
+  line-height: 20px;
+}
+.fs-6{
+  font-size:small;
+}
+/* layouts */
+.site-color{
+  color: #00BFFC;
+}
+.ad{
+  background-color: #00BFFC;
+  border-color: #00BFFC;
+}
+.ad:hover{
+  background-color: #00bdfce1;
+  border-color: #00bdfc79;
+}
+.hover{
+  color: #00BFFC;
+  border-color: #00BFFC;
+}
+.hover:hover{
+  background-color: #00BFFC;
+  border-color: #00BFFC;
+
+}
+.border-site{
+  border-color:#00BFFC !important ;
+}
+/**/
+/* card style */
+.img-card{
+  height: 400px;
+}
+.card-text{
+  line-height: 10px !important;
+}
+.dir{
+  direction: rtl;
+}
+
+
+
+/* product page */
+
+ .product-discount-label{
+    background: #FCFEFF;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 0 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* product gallery */
+.Quantity button, .Quantity input{
+  border: none;
+  background:none;
+}
+.Quantity input{
+  width: 30px;
+}
+.nav-tabs{
+  border: none !important;
+}
+/* media query */
+@media (max-width:991px) and (min-width:320px){
+  .navbar-brand{
+    margin-bottom: 25px;
+  }
+  .navbar-collapse{
+    margin-top: 25px;
+  }
+  .card{
+    position: relative;
+    right:15%;
+  }
+  .text-footer-1{
+    margin-top: 10px !important;
+  }
+  .colors a {
+    font-size: smaller;
+  }
+  .size a b{
+    font-size: smaller;
+    line-height: 45px;
+  }
+}
+@media (max-width:375px){
+  .top-nav-link{
+    margin-right: 36px !important;
+  }
+}
+@media (max-width:463px){
+.p-det{
+  margin-top: 250px !important;
+}
+body{
+  overflow-x: hidden;
+}
+}
