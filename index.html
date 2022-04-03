@@ -24,65 +24,101 @@
 
 <body>
      <!-- nav bar start -->
-     <nav class="navbar navbar-expand-lg navbar-light bg-light dir">
+     <nav class="navbar navbar-expand-lg  dir  ">
+      <a class="navbar-brand" href="#"><img src="./img/logo.png" class="img-fluid w-75" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto dir ">
+     
+          <li class="nav-item dropdown">
+            <a class="nav-link   dir" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              المنتجات
+            </a>
+            <div class="dropdown-menu text-center pb-5" aria-labelledby="navbarDropdown">
+    
+              
+              <div class="container dir">
+                <div class="row">
+                  <!-- ad aria -->
+                  <div class="col-md-3 dir">
+                    <img src="./img/header-pic-first-row.jpg" class="img-fluid my-2" alt="">
+                    <img src="./img/logo.png" class="img-fluid my-2" alt="">
+                  </div>
+                  <!-- /.col-md-3 links aria  -->
+                  <div class="col-md-3">
+                    <ul class="nav flex-column text-center">
+                      <li class="nav-item text-right">
+                        <a class="nav-link " href="#">ملابس حريمي</a>
+                        <a href="#" class="my-3 text-dark font-weight-bold">تيشيرت</a>
+                        <br>
+                        <a href="#" class="my-1 text-dark mr lh"> تيشرت احمر </a>
+                        <br>
+                        <a href="#" class="my-3 text-dark font-weight-bold">بلوزه</a>
+                        <br>
+                        <a href="#" class="my-1 text-dark mr lh "> تيشرت احمر </a>
+                        <br>
+                        <a href="#" class="my-1 text-dark mr lh"> تيشرت احمر </a>
+                        <br>
+                        <a href="#" class="my-1 text-dark mr lh"> تيشرت احمر </a>
+                        <br>
+                        <a href="#" class="my-3 text-dark font-weight-bold">بنطلون</a>
+                        <br>
+                        <a href="#" class="my-1 text-dark mr lh"> تيشرت احمر </a>
+                        <br>
+                        <a href="#" class="my-1 text-dark mr lh"> تيشرت احمر </a>
+                      </li>
+             
+                  </ul>
+                  </div>
+                  <!-- /.col-md-3 links aria  -->
+                  <div class="col-md-3">
+                    <ul class="nav flex-column text-center">
+                      <li class="nav-item text-right">
+                        <a class="nav-link " href="#">ملابس حريمي</a>
+                        <a href="#" class="my-3 text-dark font-weight-bold">تيشيرت</a>
+                        <br>
+                        <a href="#" class="my-1 text-dark mr lh"> تيشرت احمر </a>
+                        <br>
+                        <a href="#" class="my-3 text-dark font-weight-bold">بلوزه</a>
+                        <br>
+                        <a href="#" class="my-1 text-dark mr lh"> تيشرت احمر </a>
+                        <br>
+                        <a href="#" class="my-1 text-dark mr lh"> تيشرت احمر </a>
+                        <br>
+                        <a href="#" class="my-1 text-dark mr lh"> تيشرت احمر </a>
+                        <br>
+                        <a href="#" class="my-5 text-dark font-weight-bold">بنطلون</a>
+                        <br>
+                        <a href="#" class="my-1 text-dark mr lh"> تيشرت احمر </a>
+                        <br>
+                        <a href="#" class="my-1 text-dark mr lh"> تيشرت احمر </a>
+                      </li>
+         
+                  </ul>
+                  </div>
+                  <!-- /.col-md-4  -->
             
-        <div class="container-fluid navbar-nav1">
-          <a class="navbar-brand" href="/index.html">
-              <img src="./img/logo.png" class="mx-3 img-fluid" alt="">
-          </a>
-          <form  method="post" class="d-flex ">
-            <input class="form-control mr-2 " type="search" placeholder="&#xF002; بحث " style="font-family: Arial, 'Font Awesome 5 Free'"   aria-label="Search">
-          </form>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <a href="" class="text-secondary mx-2 top-nav-link"> <i class="fas fa-shield-alt mx-1"></i> سياسه الموقع</a>
-            <a href="" class="text-secondary mx-2 top-nav-link"><i class="fas fa-user mx-1"></i> حسابي</a>
-            <a href="" class="text-secondary mx-2 top-nav-link"><i class="fas fa-sign-out-alt mx-1"></i> تسجيل الخروج </a>
-
-
-          </div>
-        </div>
-      </nav>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-right dir" >
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto mb-2 mb-lg-0 dir text-right">
-
-                      <li class="nav-item ml-4">
-                        <a class="nav-link  " aria-current="page" href="#"> <!-- if nav link is active use this style span "site-color" to make active style --> <span class="site-color"> <i class="fas fa-shopping-bag mx-1 "></i> المنتجات </span> </a>
-                      </li>            
-                      <li class="nav-item ml-4">
-                        <a class="nav-link " aria-current="page" href="#"> <span class=""><i class="fas fa-scroll mx-1"></i> الطلبات</span> </a>
-                      </li>            
-                      <li class="nav-item ml-4">
-                        <a class="nav-link " aria-current="page" href="#"> <span class=""><i class="far fa-heart mx-1"></i>  المفضله</span> </a>
-                      </li>            
-                      <li class="nav-item ml-4">
-                        <a class="nav-link " aria-current="page" href="#"> <span class="" ><i class="fas fa-dollar-sign mx-1"></i> البونص</span> </a>
-                      </li>            
-                      <li class="nav-item ml-4">
-                        <a class="nav-link " aria-current="page" href="#"> <span class=""><i class="fas fa-wallet mx-1"></i> المحفظه</span> </a>
-                      </li>            
-                      <li class="nav-item ml-4">
-                        <a class="nav-link " aria-current="page" href="#"> <span class=""><i class="fas fa-shopping-cart mx-1"></i> العربه (0)</span> </a>
-                      </li>            
-                      <li class="nav-item ml-4">
-                        <a class="nav-link " aria-current="page" href="#"> <span class=""><i class="fas fa-history mx-1"></i> عداد الخير (0)</span> </a>
-                      </li>            
-                      <li class="nav-item ml-4">
-                        <a class="nav-link " aria-current="page" href="#"> <span class=""><i class="fas fa-file-alt mx-1"></i> الشكاوي والمقترحات</span> </a>
-                      </li>            
+                               <!-- ad aria -->
+                  <div class="col-md-3 dir">
+                    <img src="./img/logo.png" class="img-fluid my-2" alt="">
+                    <img src="./img/header-pic-first-row.jpg" class="img-fluid my-2" alt="">
+                  </div>
       
+                  <!-- /.col-md-4  -->
+                </div>
+              </div>
+              <!--  /.container  -->
+            </div>
+          </li>
+        </ul>
 
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-</div>
+      </div>
+    
+    
+    </nav>
      <!-- nav bar end -->
 
      <!-- cateigores bar start -->
@@ -540,6 +576,35 @@
                 }
             }
         })
+    </script>
+    <!-- nav bar script  -->
+    <script>
+      $(document).ready(function() {
+ // executes when HTML-Document is loaded and DOM is ready
+
+// breakpoint and up  
+$(window).resize(function(){
+if ($(window).width() >= 980){
+
+      // when you hover a toggle show its dropdown menu
+      $(".navbar .dropdown-toggle").hover(function () {
+         $(this).parent().toggleClass("show");
+         $(this).parent().find(".dropdown-menu").toggleClass("show"); 
+       });
+
+        // hide the menu when the mouse leaves the dropdown
+      $( ".navbar .dropdown-menu" ).mouseleave(function() {
+        $(this).removeClass("show");  
+      });
+  
+// do something here
+}
+});  
+  
+  
+
+// document ready  
+});
     </script>
 </body>
 
