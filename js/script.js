@@ -100,3 +100,16 @@ function prep_modal()
 
   });
 }
+/* input file script */
+function fileUpload(){
+	document.getElementById('inputFile').click();
+}
+function selectFile(){
+	if(document.getElementById('inputFile').value){
+		document.getElementById('errorMsg').innerHTML = document.getElementById('inputFile').value.match(
+		   /[\/\\]([\w\d\s\.\-\(\)]+)$/ 
+		   )[1];
+	}else{
+	   document.getElementById('errormsg').innerHTML = "لم يتم اختيار صوره !";
+	}
+}

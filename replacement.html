@@ -333,12 +333,11 @@
                                   <p class="font-weight-bold text-dark my-3"> صورة المنتج</p>
                                   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                                     <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_qbunlw35.json" background="transparent" speed="1" class="img-fluid" loop  autoplay></lottie-player>
-                                    <div class="text-center">
-                                        <label class="custom-file-upload">
-                                            <input type="file"/>
-                                            <i class="fas fa-plus border-custom"></i> تحميل صورة
-                                        </label>
-                                     </div>
+                                    <div class="new-input">
+                                            <input type="file" id="inputFile" onchange="selectFile()" name="file" hidden>
+                                            <button type="button" id="buttonStyle" class="custom-file-upload d-inline" onclick="fileUpload()"><i class="fas fa-plus border-custom"></i> تحميل صورة</button>                                   
+                                            <span id="errorMsg" class="text-muted font-weight-normal d-inline">  لم يتم اختيار صوره ! </span>
+                                        </div>
                             </div>
                             <div class="col-lg-6">
                                 <!-- reason -->
@@ -355,7 +354,7 @@
                                   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                                   <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_qbunlw35.json" background="transparent" speed="1" class="img-fluid" loop  autoplay></lottie-player>
                                  <div class="text-center">
-                                    <label class="custom-file-upload">
+                                    <label class="">
                                         <input type="file"/>
                                         <i class="fas fa-plus border-custom"></i> تحميل صورة
                                     </label>
@@ -672,6 +671,13 @@
        </div>
      </footer>
      <!-- footer end -->
+
+
+     <div class="my-5">
+
+   
+
+     </div>
 
 
 
